@@ -70,6 +70,7 @@ public class JobData {
                 String aValue = individual.getValue().toString().toLowerCase();
                 if(aValue.contains(value.toLowerCase())){
                     jobs.add(row);
+                    break;
                 }
             }
         }
